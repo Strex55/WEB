@@ -1,0 +1,364 @@
+*,
+*::after,
+*::before {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #101315;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    background: #F7F7F7;
+}
+
+.main__post {
+    background-image: url(assets/header.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 184px 0 150px;
+    background-position: 50%;
+    background-size: cover;
+    max-width: 1440px;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.sky {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.cite__main {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cite__second {
+    font-family: "Oxygen", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    opacity: 63%;
+    margin-top: 20px;
+
+}
+
+.cite__third {
+    font-family: "Oxygen", sans-serif;
+    border-style: none;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #fff;
+    background-color: #DD783F;
+    padding: 10px;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 20px;
+}
+
+.nav__top,
+.nav__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__main {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px 0;
+    align-items: center;
+    font-family: "Lora", sans-serif;
+    color: #768088;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.nav__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__top a {
+    margin-left: 10;
+    padding: 10px;
+    color: #fff;
+    font-family: "Oxygen", sans-serif;
+    padding: 25px;
+}
+
+.nav__bottom {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #101315;
+    padding: 0;
+}
+
+.nav__bottom--bg {
+    background-image: url(assets/bgbottom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+}
+
+.nav__bottom a {
+    color: #fff;
+    opacity: 60%;
+    font-family: "Oxygen", sans-serif;
+    padding: 25px;
+}
+
+.logo {
+    opacity: 100%;
+    font-family: Lora;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+article img {
+    width: 300px;
+    height: 150px;
+}
+
+.author__img {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+.author__img--recent {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.author__img--featured {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.adventure {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #DD783F;
+    padding: 5px;    
+    margin-left: 10px;
+    
+}
+
+.author__featured {
+    font-family: "Oxygen", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    opacity: 70%;
+}
+
+.author__recent {
+    font-family: "Oxygen", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    opacity: 70%;
+}
+
+
+.featured {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured__post {
+    position: relative;
+}
+
+.roadahead--img,
+.fromtopdown__img {
+    width: 460px;
+    height: 280px;
+    position: absolute;
+}
+
+.roadahead,
+.fromtopdown {
+    width: 460px;
+    margin-top: 158px;
+}
+
+.recent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recent__footer {
+    display: flex;
+    max-width: 300px;
+    margin: 10px 5px 5px 10px;
+    border-top: 1px solid #EFEFEF;
+}
+
+.cite__featured--1 {
+    font-family: "Lora", sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    color: #fff;
+    padding: 5px;
+}
+
+.cite__featured--2 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    color: #fff;
+    opacity: 70%;
+}
+
+.data__featured {
+    font-family: "Oxygen", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+    position: relative;
+}
+
+.recent__post {
+    background: #fff;
+    margin: 35px;
+}
+
+.cite__recent--1 {
+    font-family: "Lora", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 300px;
+}
+
+.cite__recent--2 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 300px;
+}
+
+.data__recent {
+    font-family: "Oxygen", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+
+}
+
+.featured__posts--title,
+.most__recent--title {
+    font-family: "Oxygen", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 40px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: grey;
+
+}
+
+.most__recent {
+    padding-bottom: 120px;
+}
+
+.postby {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}

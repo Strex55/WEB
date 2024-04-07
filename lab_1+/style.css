@@ -1,0 +1,32 @@
+body {
+    background-image: url(me1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: aquamarine;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+p, ul {
+    font-size: 25px;
+    font-weight: 300;
+}
+img {
+    border-radius: 200px;
+}
+
+.school {
+    text-decoration: line-through;
+}
+
+.nav {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.city {
+font-size: 20px;
+margin-top: 20px;
+}

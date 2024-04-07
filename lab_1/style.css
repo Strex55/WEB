@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+p {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    color: #101315;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sky {
+    /*margin-top: 360px; */
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.cite {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+    text-align: center;
+    color: #2E2E2EA1;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.road {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    font-style: normal;
+    text-align: center;
+    color: #2E2E2E;
+}
+
+.nav-top {
+    margin-top: 20px;
+}
+
+.nav-top a {
+    color: #2E2E2E;
+    margin-left: 10;
+    padding: 10px;
+}
+
+.footer {
+    background-image: url(bgbottom.jpg);
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.nav-bottom {
+    
+    margin-top: 120px;
+    font-weight: 400;
+    font-size:  11px;
+    line-height: 26px;
+}
+
+.nav-bot {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-bottom a {
+    color: #fff;
+    opacity: 60%; 
+    font-family: "Oxygen", sans-serif;
+    padding: 10px;  
+}
+
+#esc {
+    opacity: 100%;
+    font-family: Lora;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50%;
+}

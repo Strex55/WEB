@@ -1,0 +1,25 @@
+body,
+p {
+    margin: 0;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d3d3d3;
+    padding: 40px 40px 20px 40px;
+    border-left: 4px solid #b20202;
+    text-align: right;
+}
+
+.text {
+    font-size: 24px;
+    font-style: italic;
+    color: #b20202;
+    text-align: left;
+}
+
+.author {
+    text-align: right;
+    font-style: italic;
+    font-size: 20px;
+}

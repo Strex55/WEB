@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol,
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f9db;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.level {
+    background-color: pink;
+    text-align: center;
+    font-style: italic;
+}
+
+.appetit {
+    background-color: pink;
+    text-align: right;
+    font-style: italic;
+}
+
+h2,
+h1 {
+    font-weight: 700;
+}
+
+.bg {
+    background-color: yellow;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.b {
+    font-weight: 700;
+}

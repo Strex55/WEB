@@ -1,0 +1,116 @@
+body,
+p,
+h1,
+h2 {
+    margin: 0
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #333;
+    color: #eee;
+    padding: 10px
+}
+
+h1 {
+    text-align: right;
+    padding: 50px 10px;
+}
+
+nav {
+    text-align: right;
+}
+
+.iconup {
+    text-decoration: none;
+    color: #eee;
+    padding: 2px 10px;
+    background-color: #000;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    margin: 10px;
+    display: inline-block;
+}
+
+a img {
+    width: 20px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.iconup:hover {
+    border-color: yellow;
+}
+
+.iconup:active {
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+
+.planet:active {
+    transform: scale(1.2);
+}
+
+main {
+    padding: 50px 0px 100px 0px;
+    color: #333;
+    background-color: #ddd;
+}
+
+article,
+h2 {
+    text-align: center;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+
+p {
+    background-color: #fff;
+}
+
+.planet img {
+    width: 200px;
+    height: 200px;
+    /* двигает изображение внутри его размеров */
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+.socicon {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.vk:hover {
+    background-color: #0077ff;
+}
+
+.yt:hover {
+    background-color: #c30000;
+}
+
+.tg:hover {
+    background-color: #0088cc;
+}
+
+.snpcht:hover {
+    background-color: #fdfd03;
+}
